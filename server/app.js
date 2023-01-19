@@ -43,3 +43,9 @@ app.get('/', (req, res) => {
 // Set port and listen for incoming requests - DO NOT MODIFY
 const port = 5000;
 app.listen(port, () => console.log('Server is listening on port', port));
+
+// npm i -D dotenv sqlite3 dotenv-cli
+// dotenv sequelize sequelize-cli
+// sqlite3 dotenv-cli -D
+// sqlite3 dotenv dotenv-cli sequelize sequelize-cli 
+// -D
